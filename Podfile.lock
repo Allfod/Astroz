@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (5.4.3)
+  - BetterSegmentedControl (1.3.0)
+  - JGProgressHUD (2.2)
+  - Kingfisher (6.3.1)
+  - MotionToastView (0.1.10)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - SwiftSoup (2.3.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - BetterSegmentedControl (~> 1.3)
+  - JGProgressHUD
+  - Kingfisher (~> 6.0)
+  - MotionToastView
+  - Moya
+  - SwiftSoup
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BetterSegmentedControl
+    - JGProgressHUD
+    - Kingfisher
+    - MotionToastView
+    - Moya
+    - SwiftSoup
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  BetterSegmentedControl: 85d1b0343a09603b098884d527f550dfc8e6cdd9
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  MotionToastView: e6e03c88141c2da252cce3f5c4512e76281b4754
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  SwiftSoup: 8e4844e785a975744f2c2606f8b3844ef67eb259
+
+PODFILE CHECKSUM: 025fe82c7559e4ab512cc2c39507d32b276c9131
+
+COCOAPODS: 1.10.1

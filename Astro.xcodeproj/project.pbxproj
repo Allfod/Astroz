@@ -7,25 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4ACA14D7C2AEA11B139D7232 /* Pods_Astro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D916F7A869A814FC4D4945E /* Pods_Astro.framework */; };
 		5738D278271DA5CB001A2F32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738D277271DA5CB001A2F32 /* AppDelegate.swift */; };
 		5738D27A271DA5CB001A2F32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738D279271DA5CB001A2F32 /* SceneDelegate.swift */; };
-		5738D27C271DA5CB001A2F32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738D27B271DA5CB001A2F32 /* ViewController.swift */; };
 		5738D27F271DA5CB001A2F32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5738D27D271DA5CB001A2F32 /* Main.storyboard */; };
 		5738D282271DA5CB001A2F32 /* Astro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5738D280271DA5CB001A2F32 /* Astro.xcdatamodeld */; };
 		5738D284271DA5CD001A2F32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5738D283271DA5CD001A2F32 /* Assets.xcassets */; };
 		5738D287271DA5CD001A2F32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5738D285271DA5CD001A2F32 /* LaunchScreen.storyboard */; };
+		5738D299271DAAB8001A2F32 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5738D298271DAAB8001A2F32 /* APIManager.swift */; };
+		5741A1B8271EBA4B00BBB401 /* Horoscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741A1B7271EBA4B00BBB401 /* Horoscope.swift */; };
+		5741A1BA271EBB3200BBB401 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741A1B9271EBB3200BBB401 /* Match.swift */; };
+		5741A1BC271EBB8D00BBB401 /* Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741A1BB271EBB8D00BBB401 /* Widget.swift */; };
+		5741A1BE2720291300BBB401 /* APIEnsure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741A1BD2720291300BBB401 /* APIEnsure.swift */; };
+		5741A1C027202A6400BBB401 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5741A1BF27202A6400BBB401 /* APIHelper.swift */; };
+		575302942726A7E100271B2F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575302932726A7E100271B2F /* MainViewController.swift */; };
+		575302962726A81C00271B2F /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575302952726A81C00271B2F /* CollectionCell.swift */; };
+		575302992726AA4100271B2F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575302982726AA4100271B2F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4ABF7A0124D9F5CD9EEFC736 /* Pods-Astro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astro.debug.xcconfig"; path = "Target Support Files/Pods-Astro/Pods-Astro.debug.xcconfig"; sourceTree = "<group>"; };
 		5738D274271DA5CB001A2F32 /* Astro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Astro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5738D277271DA5CB001A2F32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5738D279271DA5CB001A2F32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5738D27B271DA5CB001A2F32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5738D27E271DA5CB001A2F32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5738D281271DA5CB001A2F32 /* Astro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Astro.xcdatamodel; sourceTree = "<group>"; };
 		5738D283271DA5CD001A2F32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5738D286271DA5CD001A2F32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5738D288271DA5CD001A2F32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5738D298271DAAB8001A2F32 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		5741A1B7271EBA4B00BBB401 /* Horoscope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horoscope.swift; sourceTree = "<group>"; };
+		5741A1B9271EBB3200BBB401 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		5741A1BB271EBB8D00BBB401 /* Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget.swift; sourceTree = "<group>"; };
+		5741A1BD2720291300BBB401 /* APIEnsure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEnsure.swift; sourceTree = "<group>"; };
+		5741A1BF27202A6400BBB401 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		575302932726A7E100271B2F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		575302952726A81C00271B2F /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
+		575302982726AA4100271B2F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7992152B58FB328D13ADCCB1 /* Pods-Astro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Astro.release.xcconfig"; path = "Target Support Files/Pods-Astro/Pods-Astro.release.xcconfig"; sourceTree = "<group>"; };
+		7D916F7A869A814FC4D4945E /* Pods_Astro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Astro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ACA14D7C2AEA11B139D7232 /* Pods_Astro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4934CF549530E9AE9D9C6164 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D916F7A869A814FC4D4945E /* Pods_Astro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5738D26B271DA5CB001A2F32 = {
 			isa = PBXGroup;
 			children = (
 				5738D276271DA5CB001A2F32 /* Astro */,
 				5738D275271DA5CB001A2F32 /* Products */,
+				FB7668A28351975EC66F815A /* Pods */,
+				4934CF549530E9AE9D9C6164 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +89,81 @@
 		5738D276271DA5CB001A2F32 /* Astro */ = {
 			isa = PBXGroup;
 			children = (
-				5738D277271DA5CB001A2F32 /* AppDelegate.swift */,
-				5738D279271DA5CB001A2F32 /* SceneDelegate.swift */,
-				5738D27B271DA5CB001A2F32 /* ViewController.swift */,
-				5738D27D271DA5CB001A2F32 /* Main.storyboard */,
-				5738D283271DA5CD001A2F32 /* Assets.xcassets */,
-				5738D285271DA5CD001A2F32 /* LaunchScreen.storyboard */,
+				5753028D2726A6A100271B2F /* Views */,
+				5738D294271DA86E001A2F32 /* API */,
+				5738D28F271DA5EA001A2F32 /* Model */,
+				5738D28E271DA5D6001A2F32 /* Needed */,
 				5738D288271DA5CD001A2F32 /* Info.plist */,
 				5738D280271DA5CB001A2F32 /* Astro.xcdatamodeld */,
 			);
 			path = Astro;
+			sourceTree = "<group>";
+		};
+		5738D28E271DA5D6001A2F32 /* Needed */ = {
+			isa = PBXGroup;
+			children = (
+				5738D277271DA5CB001A2F32 /* AppDelegate.swift */,
+				5738D279271DA5CB001A2F32 /* SceneDelegate.swift */,
+				5738D27D271DA5CB001A2F32 /* Main.storyboard */,
+				5738D283271DA5CD001A2F32 /* Assets.xcassets */,
+				5738D285271DA5CD001A2F32 /* LaunchScreen.storyboard */,
+			);
+			path = Needed;
+			sourceTree = "<group>";
+		};
+		5738D28F271DA5EA001A2F32 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5741A1B7271EBA4B00BBB401 /* Horoscope.swift */,
+				5741A1B9271EBB3200BBB401 /* Match.swift */,
+				5741A1BB271EBB8D00BBB401 /* Widget.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5738D294271DA86E001A2F32 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5738D298271DAAB8001A2F32 /* APIManager.swift */,
+				5741A1BD2720291300BBB401 /* APIEnsure.swift */,
+				5741A1BF27202A6400BBB401 /* APIHelper.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5753028D2726A6A100271B2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				575302972726AA1900271B2F /* Detail */,
+				575302922726A7A000271B2F /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		575302922726A7A000271B2F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				575302932726A7E100271B2F /* MainViewController.swift */,
+				575302952726A81C00271B2F /* CollectionCell.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		575302972726AA1900271B2F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				575302982726AA4100271B2F /* DetailViewController.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FB7668A28351975EC66F815A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4ABF7A0124D9F5CD9EEFC736 /* Pods-Astro.debug.xcconfig */,
+				7992152B58FB328D13ADCCB1 /* Pods-Astro.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5738D28B271DA5CD001A2F32 /* Build configuration list for PBXNativeTarget "Astro" */;
 			buildPhases = (
+				EA98C38E2E6DC8791DFF65A7 /* [CP] Check Pods Manifest.lock */,
 				5738D270271DA5CB001A2F32 /* Sources */,
 				5738D271271DA5CB001A2F32 /* Frameworks */,
 				5738D272271DA5CB001A2F32 /* Resources */,
+				8AFDE7BDCC28590E3A8B2039 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +234,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8AFDE7BDCC28590E3A8B2039 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Astro/Pods-Astro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Astro/Pods-Astro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Astro/Pods-Astro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA98C38E2E6DC8791DFF65A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Astro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5738D270271DA5CB001A2F32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5738D27C271DA5CB001A2F32 /* ViewController.swift in Sources */,
+				5741A1B8271EBA4B00BBB401 /* Horoscope.swift in Sources */,
+				5741A1BC271EBB8D00BBB401 /* Widget.swift in Sources */,
+				5741A1BE2720291300BBB401 /* APIEnsure.swift in Sources */,
+				575302992726AA4100271B2F /* DetailViewController.swift in Sources */,
 				5738D278271DA5CB001A2F32 /* AppDelegate.swift in Sources */,
+				5741A1BA271EBB3200BBB401 /* Match.swift in Sources */,
 				5738D27A271DA5CB001A2F32 /* SceneDelegate.swift in Sources */,
 				5738D282271DA5CB001A2F32 /* Astro.xcdatamodeld in Sources */,
+				5741A1C027202A6400BBB401 /* APIHelper.swift in Sources */,
+				5738D299271DAAB8001A2F32 /* APIManager.swift in Sources */,
+				575302962726A81C00271B2F /* CollectionCell.swift in Sources */,
+				575302942726A7E100271B2F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +436,7 @@
 		};
 		5738D28C271DA5CD001A2F32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ABF7A0124D9F5CD9EEFC736 /* Pods-Astro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -316,6 +465,7 @@
 		};
 		5738D28D271DA5CD001A2F32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7992152B58FB328D13ADCCB1 /* Pods-Astro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
